@@ -1,0 +1,25 @@
+{
+  "name": "backend-with-ts",
+  "version": "1.0.0",
+  "description": "backend with typescript",
+  "license": "ISC",
+  "author": "vishal pathak",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc --watch & nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.1"
+  }
+}
